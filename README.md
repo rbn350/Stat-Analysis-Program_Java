@@ -7,9 +7,14 @@ Simple Java program designed to read a dataset of statistics from a CSV file, an
 
 **Features**:
 
-**_CSV File Reading_**: Reads crime statistics from a CSV file.
-**_Total Crimes Calculation_**: Calculates the total number of crimes reported across all years in the dataset.
-**_Output Generation_**: Writes the calculated total crimes to an output text file.
+**_CSV File Reading_**:
+- Reads crime statistics from a CSV file.
+
+**_Total Crimes Calculation_**:
+- Calculates the total number of crimes reported across all years in the dataset.
+
+**_Output Generation_**:
+- Writes the calculated total crimes to an output text file.
 
 **How to Run**:
 
