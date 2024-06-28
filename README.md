@@ -38,3 +38,22 @@ Simple Java program designed to read a dataset of statistics from a CSV file, an
 - The program first opens and reads the input CSV file, skipping the header row.
 - It then reads each row, extracting the total crimes reported in the last column, and adds this to a cumulative total.
 - After processing all rows, it writes the total crimes figure to the specified output text file.
+- 
+**Error Handling**:
+
+- The program includes basic error handling for I/O operations, reporting any issues encountered during file reading or writing.
+
+**Usage Notes**:
+
+- The program assumes the structure of the CSV file is consistent, with the total number of reported crimes in the last column of each row. If your CSV file has a different structure, you will need to modify the program accordingly.
+- The program does not perform complex error checking (e.g., to confirm the validity of data in each row). Ensure that your CSV file is correctly formatted to avoid runtime errors.
+
+**Extending the Program**:
+
+For users interested in further developing this program, consider the following enhancements:
+
+- **Dynamic File Paths**: Modify the program to accept input and output file paths as arguments from the command line, making it more flexible for different datasets.
+- **Detailed Analysis**: Extend the functionality to perform more detailed analysis, such as calculating crimes by category, year, or other criteria present in the dataset.
+- **Data Validation**: Implement additional error checking and data validation to handle missing values or malformed data entries in the CSV file.
+
+This program serves as a basic template for file reading and writing operations in Java, offering a foundation that can be expanded into more comprehensive data analysis tools.
